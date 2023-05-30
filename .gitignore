@@ -1,0 +1,34 @@
+# Maven specific
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+
+# IntelliJ IDEA specific
+.idea/
+*.iml
+*.iws
+out/
+
+# Compiled bytecode
+*.class
+
+# Logs
+*.log
+log/
+
+# Build directories
+build/
+bin/
+
+# Package files
+*.jar
+*.war
+*.ear
+*.zip
+
+# IDE specific
+.DS_Store
