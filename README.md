@@ -15,4 +15,18 @@ Java8, Lamda, Functional Interfaces
 * `Function<T>`
   * 
 * Supplier
+
+```
+### BinaryOperator extends BiFunction
+### UnaryOperator extends Function
+```
+
+
+## Method Reference & Constructor reference:
+* Method Reference
+ * `object::instanceMethod` => Method reference to an instance method of an existing object
+ * `Class::StaticMethod` => Method reference to static method of the class
+ * `Class::instanceMethod` => Method reference to an instance method of an input object of a particular type
+ * `Class::new` => Method reference to constructor => Thread :: new
+
  
