@@ -12,13 +12,14 @@ public class FunctionDemo {
      * @param args
      */
     public static void main(String[] args) {
-        Function<String,Integer> fun = (str) -> str.length();
+       // Function<String,Integer> fun = (str) -> str.length();
+        Function<String,Integer> fun = String::length; //Class::instanceMethod
         System.out.println(fun.apply("Hello Function!!"));
 
         List<String> stringList = List.of("Surajit", "Abhijit","Rituparna","Nilachal","Kalpana","Sanchita");
 
         mapper(stringList, fun).stream()
-                .forEach(e-> System.out.print(e+" "));
+                .forEach(obj -> System.out.print(obj+" "));
 
     }
 
